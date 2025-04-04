@@ -16,6 +16,7 @@ def read_sql_file(file_path):
     with open(file_path, "r") as file:
         return file.read()
 
+
 BRONZE_QUERY = read_sql_file(SQL_FILE_PATH_1)
 SILVER_QUERY = read_sql_file(SQL_FILE_PATH_2)
 GOLD_QUERY = read_sql_file(SQL_FILE_PATH_3)
