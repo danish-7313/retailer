@@ -52,7 +52,8 @@ def save_logs_to_gcs():
     
     json_data = json.dumps(log_entries, indent=4)
 
-    # Get GCS bucket
+    # Get GCS 
+    
     bucket = storage_client.bucket(GCS_BUCKET)
     blob = bucket.blob(log_filepath)
     
