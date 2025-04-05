@@ -11,7 +11,7 @@ spark = SparkSession.builder.appName("CustomerReviewsAPI").getOrCreate()
 
 
 # API Endpoint
-API_URL = "https://67efee6f2a80b06b889651a8.mockapi.io/retailer/reviews"
+API_URL = "https://67f0ea7bc733555e24ab9568.mockapi.io/reviews"
 
 # Step 1: Fetch data from API
 response = requests.get(API_URL)
